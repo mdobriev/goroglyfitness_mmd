@@ -36,7 +36,7 @@ class TrainingInfoCard extends StatelessWidget {
                 children: [
                   // Day
                   Text(
-                    'Today',
+                    'Сегодня',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   // Time
@@ -62,13 +62,13 @@ class TrainingInfoCard extends StatelessWidget {
                       SizedBox(
                         width: 20,
                       ),
-                      Text('Zinedine Zidane')
+                      Text('Дурды Гоков')
                     ],
                   ),
                 ],
               ),
               Text(
-                'Pilates',
+                'Пилатес',
                 style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.bold,

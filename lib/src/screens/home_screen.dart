@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: double.infinity,
               margin: EdgeInsets.fromLTRB(30, 30, 20, 10),
               child: Text(
-                'Upcoming trainings: ',
+                'Ближайшие тренировки: ',
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   decoration: TextDecoration.underline,

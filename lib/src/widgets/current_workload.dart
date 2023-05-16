@@ -37,7 +37,7 @@ class CurrentWorkload extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               ),
               Text(
-                'Current workload',
+                'Текущая загруженность',
                 style: TextStyle(color: Colors.white),
               ),
             ],

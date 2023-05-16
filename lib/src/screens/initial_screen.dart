@@ -54,7 +54,7 @@ class _InitialScreenState extends State<InitialScreen> {
                     Expanded(
                       child: BottomFloatingActionButtonNotFull(
                         btnIcon: Icons.people,
-                        btnText: 'Instructors',
+                        btnText: 'Тренеры',
                       ),
                     ),
                     SizedBox(
@@ -63,7 +63,7 @@ class _InitialScreenState extends State<InitialScreen> {
                     Expanded(
                       child: BottomFloatingActionButtonNotFull(
                         btnIcon: Icons.location_on_outlined,
-                        btnText: 'About club',
+                        btnText: 'О клубе',
                       ),
                     ),
                   ],
@@ -75,7 +75,7 @@ class _InitialScreenState extends State<InitialScreen> {
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: BottomFloatingActionButton(
                   btnIcon: Icons.person_add_alt_1,
-                  btnText: 'Log in',
+                  btnText: 'Войти',
                 ),
               ),
               Container(
@@ -113,23 +113,23 @@ class _InitialScreenState extends State<InitialScreen> {
                           tabs: const [
                             GButton(
                               icon: Icons.home_rounded,
-                              text: 'Home',
+                              text: 'Главная',
                             ),
                             GButton(
                               icon: Icons.receipt,
-                              text: 'Schedule',
+                              text: 'Расписание',
                             ),
                             GButton(
                               icon: Icons.newspaper,
-                              text: 'News',
+                              text: 'Новости',
                             ),
                             GButton(
                               icon: Icons.person,
-                              text: 'Profile',
+                              text: 'Профиль',
                             ),
                             GButton(
                               icon: Icons.settings,
-                              text: 'Settings',
+                              text: 'Настройки',
                             ),
                           ],
                           selectedIndex: _selectedIndex,

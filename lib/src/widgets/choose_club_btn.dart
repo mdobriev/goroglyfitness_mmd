@@ -11,16 +11,20 @@ class ChooseClubButton extends StatelessWidget {
   _chooseClubModalOpen(ctx) {
     showModalBottomSheet(
       context: ctx,
-      backgroundColor: Colors.white12,
+      clipBehavior: Clip.hardEdge,
+      backgroundColor: Colors.redAccent.shade700,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(50),
+      ),
+      constraints: BoxConstraints(
+        maxWidth: MediaQuery.of(ctx).size.width - 40,
       ),
       builder: (BuildContext context) {
         return Container(
-          decoration: BoxDecoration(
-            color: Colors.red.shade700,
-            borderRadius: BorderRadius.circular(50),
-          ),
+          // decoration: BoxDecoration(
+          //   color: Colors.redAccent.shade700,
+          //   borderRadius: BorderRadius.circular(50),
+          // ),
           width: double.infinity,
           margin: EdgeInsets.all(10),
           height: 300,
@@ -29,17 +33,32 @@ class ChooseClubButton extends StatelessWidget {
             children: <Widget>[
               Container(
                 height: 50,
-                child: const Center(child: Text('Entry A')),
+                child: const Center(child: Text('Клуб №1')),
               ),
               Divider(),
               Container(
                 height: 50,
-                child: const Center(child: Text('Entry B')),
+                child: const Center(child: Text('Клуб №2')),
               ),
               Divider(),
               Container(
                 height: 50,
-                child: const Center(child: Text('Entry C')),
+                child: const Center(child: Text('Клуб №3')),
+              ),
+              Divider(),
+              Container(
+                height: 50,
+                child: const Center(child: Text('Клуб №4')),
+              ),
+              Divider(),
+              Container(
+                height: 50,
+                child: const Center(child: Text('Клуб №5')),
+              ),
+              Divider(),
+              Container(
+                height: 50,
+                child: const Center(child: Text('Клуб №6')),
               ),
               Divider(),
             ],
@@ -66,7 +85,7 @@ class ChooseClubButton extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Text(
-                'Club №1: "Disnay Land"',
+                'Клуб №1: "Disnay Land"',
                 style:
                     TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
               ),
