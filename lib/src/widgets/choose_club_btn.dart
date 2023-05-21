@@ -1,6 +1,3 @@
-import 'dart:js';
-
-import 'package:app/src/widgets/blur_filter.dart';
 import 'package:flutter/material.dart';
 
 class ChooseClubButton extends StatelessWidget {
